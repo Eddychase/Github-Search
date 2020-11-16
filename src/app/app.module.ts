@@ -8,7 +8,7 @@ import { ProfileService } from './profile.service';
 
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
-import { Http, Headers } from '@angular/http';
+
 
 import { UserDirective } from './user.directive';
 import { UserComponent } from './user/user.component';
