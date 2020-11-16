@@ -18,10 +18,10 @@
     overflow: hidden;
   }
   #repo{
-    color: #ffffff;
+    color: darkgray;
   }
   #repo1{
-    color: #ffffff;
+    color:darkgray;
     border-bottom-color: #E963FD;
     background-color: #525252;
     margin-left: 10px;
@@ -48,9 +48,9 @@
   }
   
   input[type=text] {
-    width: 130px;
+    width: 100px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid black;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
@@ -66,3 +66,4 @@
   input[type=text]:focus {
     width: 100%;
   }
+  

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: '58f72e3b9a8c9d2d9c0951b832683acecb84ecc0'
+  apiUrl: '92836dc2e8d0a3222f816a819564d3b085acbec8'
 };
 /*
  * For easier debugging in development mode, you can import the following file

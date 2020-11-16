@@ -3,12 +3,10 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ProfileService } from './profile.service';
-
- // <-- import the module
+import {TimeAgoPipe} from './time-ago.pipe';
 
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
-
 
 import { UserDirective } from './user.directive';
 import { UserComponent } from './user/user.component';
@@ -21,7 +19,7 @@ import {RoutingModule} from './routing/routing.module';
     ProfileComponent,
     UserDirective,
     UserComponent,
-    
+    TimeAgoPipe,
 
   ],
   imports: [
@@ -29,7 +27,6 @@ import {RoutingModule} from './routing/routing.module';
     HttpClientModule,
     FormsModule,
     RoutingModule,
-    
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]
