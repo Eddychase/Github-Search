@@ -11,6 +11,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { UserDirective } from './user.directive';
 import { UserComponent } from './user/user.component';
 import {RoutingModule} from './routing/routing.module';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import {RoutingModule} from './routing/routing.module';
     UserDirective,
     UserComponent,
     TimeAgoPipe,
+    HomepageComponent,
 
   ],
   imports: [
