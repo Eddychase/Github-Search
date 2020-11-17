@@ -19,10 +19,11 @@ import { HomepageComponent } from './homepage/homepage.component';
   declarations: [
     AppComponent,
     ProfileComponent,
+    HomepageComponent,
     UserDirective,
     UserComponent,
     TimeAgoPipe,
-    HomepageComponent,
+    
 
   ],
   imports: [
